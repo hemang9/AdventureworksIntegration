@@ -3,6 +3,10 @@ GO
 SET ANSI_NULLS ON
 GO
 
+/*
+HJB- changes1
+HJB- changes2
+*/
 CREATE PROCEDURE [dbo].[uspGetBillOfMaterials]
     @StartProductID [int],
     @CheckDate [datetime]
