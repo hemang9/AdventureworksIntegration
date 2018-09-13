@@ -3,6 +3,8 @@
   "Deployment order": [
     {"Description":"Changes before migration script 'Covers changes to: Address. Script created at 2018-09-13 15:49.'","Type":"Compare","Id":"2018-09-13-155047 dg auto"},
     {"Description":"Migration script 'Covers changes to: Address. Script created at 2018-09-13 15:49.'","Type":"Migration","Id":"2018-09-13-155047 dh user"},
+    {"Description":"Changes before migration script 'Covers changes to: AddressType. Script created at 2018-09-13 15:55.'","Type":"Compare","Id":"2018-09-13-155612 di auto"},
+    {"Description":"Migration script 'Covers changes to: AddressType. Script created at 2018-09-13 15:55.'","Type":"Migration","Id":"2018-09-13-155612 dj user"},
   ],
   "Conflict in this file?": "If there’s a conflict in this file, you probably want to keep both changes. Learn more: http://www.red-gate.com/SOC4/order-file-more-info"
 }
