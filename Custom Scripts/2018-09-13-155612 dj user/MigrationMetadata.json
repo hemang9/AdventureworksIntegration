@@ -1,0 +1,11 @@
+{
+  "Id": "6e6df44f-8292-437b-a09d-41b2300bc20d",
+  "Name": "Covers changes to: AddressType. Script created at 2018-09-13 15:55.",
+  "ObjectIds": [
+    {
+      "Name": "AddressType",
+      "Owner": "Person",
+      "ObjectType": "Table"
+    }
+  ]
+}

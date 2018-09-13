@@ -9,7 +9,8 @@ CREATE TABLE [Person].[Address]
 [SpatialLocation] [sys].[geography] NULL,
 [rowguid] [uniqueidentifier] NOT NULL ROWGUIDCOL CONSTRAINT [DF_Address_rowguid] DEFAULT (newid()),
 [ModifiedDate] [datetime] NOT NULL CONSTRAINT [DF_Address_ModifiedDate] DEFAULT (getdate()),
-[NEWCOLUMN] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+[NEWCOLUMN] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[NEWCOLUMN1] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [Person].[Address] ADD CONSTRAINT [PK_Address_AddressID] PRIMARY KEY CLUSTERED  ([AddressID]) ON [PRIMARY]

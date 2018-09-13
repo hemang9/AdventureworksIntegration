@@ -1,0 +1,11 @@
+{
+  "Id": "091dac50-5754-460e-8e75-44f83c7749ea",
+  "Name": "Covers changes to: Address. Script created at 2018-09-13 15:49.",
+  "ObjectIds": [
+    {
+      "Name": "Address",
+      "Owner": "Person",
+      "ObjectType": "Table"
+    }
+  ]
+}
